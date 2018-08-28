@@ -1,0 +1,38 @@
+{
+    "name": "fduarte42/zend-expressive-plates-viewhelper",
+    "description": "Zend Viewhelper Adapter for Plates integration for Expressive",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "expressive",
+        "http",
+        "league",
+        "plates",
+        "psr",
+        "psr-7",
+        "zf",
+        "zendframework",
+        "zend-expressive",
+        "zend-view",
+        "viewhelper"
+    ],
+    "support": {
+        "issues": "https://github.com/fduarte42/zend-expressive-plates-viewhelper/issues",
+        "source": "https://github.com/fduarte42/zend-expressive-plates-viewhelper",
+        "rss": "https://github.com/fduarte42/zend-expressive-plates-viewhelper/releases.atom"
+    },
+    "require": {
+        "php": "^7.1",
+        "zendframework/zend-expressive-platesrenderer": "^2.0",
+        "zendframework/zend-view": "^2.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fduarte42\\ZendExpressivePlatesViewhelper\\": "src/"
+        }
+    },
+    "extra": {
+        "zf": {
+            "config-provider": "Fduarte42\\ZendExpressivePlatesViewhelper\\ConfigProvider"
+        }
+    }
+}
